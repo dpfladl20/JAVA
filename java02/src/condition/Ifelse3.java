@@ -55,5 +55,6 @@ public class Ifelse3 {
 		}else {
 			System.out.println("윤년이 아닙니다");
 		}
-	}
+		sc.close();  		// 프로그램 성능을 느려지게 할 수 있는 자원을 해제
+	}		// 지금은 main함수가 종료되면 자동으로 해제되기 때문에 안해도 됨
 }
